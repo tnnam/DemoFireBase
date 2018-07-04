@@ -12,9 +12,17 @@
 		8492EB7B20E8A2AE00CB750F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8492EB7920E8A2AE00CB750F /* Main.storyboard */; };
 		8492EB7D20E8A2AF00CB750F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8492EB7C20E8A2AF00CB750F /* Assets.xcassets */; };
 		8492EB8020E8A2AF00CB750F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8492EB7E20E8A2AF00CB750F /* LaunchScreen.storyboard */; };
+		8492EB8820E8A2E600CB750F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8492EB8720E8A2E500CB750F /* GoogleService-Info.plist */; };
+		84D929D620EB6B3D00788A46 /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D929D520EB6B3D00788A46 /* Extension+View.swift */; };
+		84D929D820EB6FB800788A46 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D929D720EB6FB800788A46 /* LoginViewController.swift */; };
+		84E16A1720E9DAE5002D42C2 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E16A1620E9DAE5002D42C2 /* DataViewController.swift */; };
+		84E16A1920E9DE41002D42C2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E16A1820E9DE41002D42C2 /* TableViewController.swift */; };
+		84E16A1C20EA07A4002D42C2 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E16A1B20EA07A4002D42C2 /* Student.swift */; };
+		DC67FD5298C150947C91B43A /* Pods_FireFun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88928EA5013337A54E1DC915 /* Pods_FireFun.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2576E176FDF702C3D5A96F13 /* Pods-FireFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireFun.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireFun/Pods-FireFun.release.xcconfig"; sourceTree = "<group>"; };
 		8492EB7220E8A2AD00CB750F /* FireFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8492EB7520E8A2AD00CB750F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8492EB7720E8A2AE00CB750F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,15 @@
 		8492EB7C20E8A2AF00CB750F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8492EB7F20E8A2AF00CB750F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8492EB8120E8A2AF00CB750F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8492EB8720E8A2E500CB750F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84D929D520EB6B3D00788A46 /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
+		84D929D720EB6FB800788A46 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84D929D920EB73C500788A46 /* FireFun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FireFun.entitlements; sourceTree = "<group>"; };
+		84E16A1620E9DAE5002D42C2 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		84E16A1820E9DE41002D42C2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		84E16A1B20EA07A4002D42C2 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		88928EA5013337A54E1DC915 /* Pods_FireFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCF9008CB02BFA2D1112B03 /* Pods-FireFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireFun/Pods-FireFun.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC67FD5298C150947C91B43A /* Pods_FireFun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05134B89CB5A5C3D65C5A215 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFCF9008CB02BFA2D1112B03 /* Pods-FireFun.debug.xcconfig */,
+				2576E176FDF702C3D5A96F13 /* Pods-FireFun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8492EB6920E8A2AD00CB750F = {
 			isa = PBXGroup;
 			children = (
 				8492EB7420E8A2AD00CB750F /* FireFun */,
 				8492EB7320E8A2AD00CB750F /* Products */,
+				05134B89CB5A5C3D65C5A215 /* Pods */,
+				FFA5CACED1923CCE9052ADD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +83,53 @@
 		8492EB7420E8A2AD00CB750F /* FireFun */ = {
 			isa = PBXGroup;
 			children = (
+				84D929D920EB73C500788A46 /* FireFun.entitlements */,
 				8492EB7520E8A2AD00CB750F /* AppDelegate.swift */,
-				8492EB7720E8A2AE00CB750F /* ViewController.swift */,
+				84D929D420EB6B2000788A46 /* Extension */,
+				84E16A1A20EA075E002D42C2 /* Model */,
+				84EF678420EA25B6009BEE2A /* Controller */,
 				8492EB7920E8A2AE00CB750F /* Main.storyboard */,
 				8492EB7C20E8A2AF00CB750F /* Assets.xcassets */,
 				8492EB7E20E8A2AF00CB750F /* LaunchScreen.storyboard */,
 				8492EB8120E8A2AF00CB750F /* Info.plist */,
+				8492EB8720E8A2E500CB750F /* GoogleService-Info.plist */,
+				8492EB7720E8A2AE00CB750F /* ViewController.swift */,
 			);
 			path = FireFun;
+			sourceTree = "<group>";
+		};
+		84D929D420EB6B2000788A46 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84D929D520EB6B3D00788A46 /* Extension+View.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		84E16A1A20EA075E002D42C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84E16A1B20EA07A4002D42C2 /* Student.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84EF678420EA25B6009BEE2A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84D929D720EB6FB800788A46 /* LoginViewController.swift */,
+				84E16A1820E9DE41002D42C2 /* TableViewController.swift */,
+				84E16A1620E9DAE5002D42C2 /* DataViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FFA5CACED1923CCE9052ADD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88928EA5013337A54E1DC915 /* Pods_FireFun.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8492EB8420E8A2AF00CB750F /* Build configuration list for PBXNativeTarget "FireFun" */;
 			buildPhases = (
+				6DCADFAA1BF0BA8AA500DA3A /* [CP] Check Pods Manifest.lock */,
 				8492EB6E20E8A2AD00CB750F /* Sources */,
 				8492EB6F20E8A2AD00CB750F /* Frameworks */,
 				8492EB7020E8A2AD00CB750F /* Resources */,
+				200EAB88C8C839AB144419E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +166,11 @@
 				TargetAttributes = {
 					8492EB7120E8A2AD00CB750F = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,18 +200,75 @@
 				8492EB8020E8A2AF00CB750F /* LaunchScreen.storyboard in Resources */,
 				8492EB7D20E8A2AF00CB750F /* Assets.xcassets in Resources */,
 				8492EB7B20E8A2AE00CB750F /* Main.storyboard in Resources */,
+				8492EB8820E8A2E600CB750F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		200EAB88C8C839AB144419E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FireFun/Pods-FireFun-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireFun/Pods-FireFun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DCADFAA1BF0BA8AA500DA3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireFun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8492EB6E20E8A2AD00CB750F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D929D820EB6FB800788A46 /* LoginViewController.swift in Sources */,
 				8492EB7820E8A2AE00CB750F /* ViewController.swift in Sources */,
+				84E16A1720E9DAE5002D42C2 /* DataViewController.swift in Sources */,
 				8492EB7620E8A2AD00CB750F /* AppDelegate.swift in Sources */,
+				84E16A1C20EA07A4002D42C2 /* Student.swift in Sources */,
+				84D929D620EB6B3D00788A46 /* Extension+View.swift in Sources */,
+				84E16A1920E9DE41002D42C2 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +410,12 @@
 		};
 		8492EB8520E8A2AF00CB750F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFCF9008CB02BFA2D1112B03 /* Pods-FireFun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FireFun/FireFun.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45VTZRG97N;
 				INFOPLIST_FILE = FireFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,9 +430,12 @@
 		};
 		8492EB8620E8A2AF00CB750F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2576E176FDF702C3D5A96F13 /* Pods-FireFun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FireFun/FireFun.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45VTZRG97N;
 				INFOPLIST_FILE = FireFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
